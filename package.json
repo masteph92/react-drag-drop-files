@@ -12,6 +12,7 @@
   "scripts": {
     "build": "rollup -c",
     "build-watch": "rollup -c -w",
+    "prepublish": "npm run build",
     "start-playground": "cd playground && npm run start",
     "install-all": "yarn install && cd playground && npm i",
     "dev": "npm-run-all --parallel build-watch start-playground",
