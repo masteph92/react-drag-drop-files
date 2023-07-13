@@ -14,7 +14,7 @@ const defaultStyle = css`
   padding: 8px 16px 8px 8px;
   border-radius: 5px;
   cursor: pointer;
-  flex-grow: 0;
+  flex-grow: 1;
 
   &.is-disabled {
     border: dashed 2px ${darkGray};
